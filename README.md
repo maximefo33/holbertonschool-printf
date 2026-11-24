@@ -62,5 +62,13 @@ Nous devons donc développer nous-même les mécanismes d'affichage, de conversi
 
 
 
+ETUDIANTS :
+FONCHY MAXIME propriétaire du Github.
+LOISON HUGO collaborateur
+QUENTIN GAILLARD collaborateur
+
+
+
+
 
 
