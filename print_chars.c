@@ -30,7 +30,7 @@ int print_string(va_list, *args)
 	char *str;
 	int i
 
-	str = va_arg(*arg, char *);
+	str = va_arg(*args, char *);
 	if (str == NULL)
 	{
 		str = "(null)";
@@ -45,3 +45,17 @@ int print_string(va_list, *args)
 
 	return (i);
 }
+
+/**
+ * print_percent - prints a percent sign
+ * @args: unused pointer to va_list
+ *
+ * Return: 1
+ */
+
+int _print_percent(va_list *args)
+{
+    (void) args;
+    return (_putchar('%'));
+}
+
