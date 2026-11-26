@@ -11,6 +11,12 @@
  *       used in the _printf project.
  */
 
+typedef struct printf
+{
+    char spec;
+    int (*f)(va_list *);
+} print_t;
+
 int _putchar(char c);
 int _printf(const char *format, ...);
 int _print_char(va_list *args);
