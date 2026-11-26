@@ -7,7 +7,7 @@
  * Return: 1
  */
 
-int _print_chars(va_list *args) /* pointeur vers la liste d'arguments */
+int _print_char(va_list *args) /* pointeur vers la liste d'arguments */
 {
     char c;
     c = va_arg(*args, int);
