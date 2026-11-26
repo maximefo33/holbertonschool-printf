@@ -7,7 +7,7 @@
  * Return: 1
  */
 
-int print_chars(va_list *args) /* pointeur vers la liste d'arguments */
+int _print_chars(va_list *args) /* pointeur vers la liste d'arguments */
 {
     char c;
     c = va_arg(*args, int);
@@ -22,7 +22,7 @@ int print_chars(va_list *args) /* pointeur vers la liste d'arguments */
  * Return: number of characters printed
  */
 
-int print_string(va_list *args)
+int _print_string(va_list *args)
 {
     char *str;
     int i;
@@ -62,7 +62,7 @@ int _print_percent(va_list *args)
  *
  * Return: The number of characters printed
  */
-int print_int(va_list *args)
+int _print_int(va_list *args)
 {
     long num = va_arg(*args, int);
     long div = 1;
