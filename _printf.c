@@ -41,12 +41,10 @@ int _printf(const char *format, ...)
 			{
 				if (format[i + 1] == fonction[j].spec)
 				{
-					if (format[i + 1] == fonction[j].spec)
-					{
-						count += fonction[j].f(&argc);
-						break;
-					}
+					count += fonction[j].f(&argc);
+					break;
 				}
+
 				j++;
 			}
 			i += 2;
